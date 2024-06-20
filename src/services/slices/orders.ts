@@ -4,7 +4,11 @@ import {
   createAsyncThunk,
   createSlice
 } from '@reduxjs/toolkit';
-import { getOrderByNumberApi, getOrdersApi, orderBurgerApi } from '@api';
+import {
+  getOrderByNumberApi,
+  getOrdersApi,
+  orderBurgerApi
+} from '../../utils/burger-api';
 
 type TOrdersState = {
   isOrderLoading: boolean;

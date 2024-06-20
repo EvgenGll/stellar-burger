@@ -5,7 +5,7 @@ import {
   createSlice
 } from '@reduxjs/toolkit';
 
-import { getIngredientsApi } from '@api';
+import { getIngredientsApi } from '../../utils/burger-api';
 
 type TIngredientsState = {
   isLoading: boolean;

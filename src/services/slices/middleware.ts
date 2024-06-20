@@ -1,5 +1,6 @@
 import { Middleware, MiddlewareAPI } from '@reduxjs/toolkit';
-import { createOrder, resetConstructor } from '@slices';
+import { resetConstructor } from './burgerConstructor';
+import { createOrder } from './orders';
 import { AppDispatch, RootState } from '../store';
 
 const middleware: Middleware =
