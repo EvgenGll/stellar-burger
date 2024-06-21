@@ -9,15 +9,15 @@ import {
 
 import reducer from '../src/services/slices/user';
 
-const userMockData = {
-  email: 'example@example.mail',
-  name: 'Example'
-};
-
 const registerMockData = {
   email: 'example@example.mail',
   name: 'Example',
   password: 'Example'
+};
+
+const userMockData = {
+  email: 'example@example.mail',
+  name: 'Example'
 };
 
 const loginMockData = {
