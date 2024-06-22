@@ -1,9 +1,9 @@
 import {
     fetchIngredients,
     ingredientsInitialState
-  } from '../src/services/slices';
+  } from '..';
   
-  import reducer from '../src/services/slices/ingredients';
+  import reducer from '../ingredients';
   
   const ingredientsMockData = [
     {

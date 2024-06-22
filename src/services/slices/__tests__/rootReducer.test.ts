@@ -1,4 +1,4 @@
-import { rootReducer, store } from '../src/services/store';
+import { rootReducer, store } from '../../store';
 
 describe('Тестирование rootReducer', () => {
   test('Вызов rootReducer с UNKNOWN_ACTION и undefined возвращает предыдущее состояние хранилища', () => {

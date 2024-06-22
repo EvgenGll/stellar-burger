@@ -5,11 +5,11 @@ import {
     moveIngredient,
     resetConstructor,
     constructorInitialState
-  } from '../src/services/slices';
+  } from '..';
   
-  import reducer from '../src/services/slices/burgerConstructor';
+  import reducer from '../burgerConstructor';
 
-  const bunMockData = {
+ export const bunMockData = {
     _id: '643d69a5c3f7b9001cfa093c',
     name: 'Краторная булка N-200i',
     type: 'bun',

@@ -5,9 +5,9 @@ import {
   login,
   logout,
   userInitialState
-} from '../src/services/slices';
+} from '..';
 
-import reducer from '../src/services/slices/user';
+import reducer from '../user';
 
 const registerMockData = {
   email: 'example@example.mail',
